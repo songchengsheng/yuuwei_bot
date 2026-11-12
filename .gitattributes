@@ -1,0 +1,13 @@
+# 统一换行符，避免 Windows 本地 CRLF 与 Linux CI 冲突
+* text=auto eol=lf
+
+*.java  text eol=lf
+*.ts    text eol=lf
+*.vue   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.md    text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.jar   binary
